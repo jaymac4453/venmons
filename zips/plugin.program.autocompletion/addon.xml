@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.autocompletion" name="AutoCompletion for virtual keyboard" version="2.0.1" provider-name="AntiVenom">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="plugin.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Predictive movie and TV suggestions for virtual keyboard</summary>
+        <description lang="en">Real-time movie, TV show, and streaming exclusive suggestions for the AntiVenom virtual keyboard.</description>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>

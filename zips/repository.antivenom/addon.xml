@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.antivenom" name="AntiVenom Repository" version="1.0.0" provider-name="AntiVenom">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="AntiVenom Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/jaymac4453/venmons/main/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jaymac4453/venmons/main/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jaymac4453/venmons/main/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">AntiVenom Official Add-on Repository</summary>
+        <description lang="en_GB">Automated background updates for AntiVenom Skin &amp; Streaming Hub on Firestick and Android TV.</description>
+        <disclaimer lang="en_GB">AntiVenom is for educational and personal streaming use.</disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>

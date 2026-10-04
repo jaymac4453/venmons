@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.antivenom" name="AntiVenom Hub" version="1.0.60" provider-name="AntiVenom">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="plugin.video.thecrew" version="0.0.1" optional="true"/>
+    <import addon="plugin.video.madtitansports" version="2.0.0" optional="true"/>
+    <import addon="plugin.video.youtube" version="7.0.0" optional="true"/>
+    <import addon="pvr.iptvsimple" version="1.0.0" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">AntiVenom Hub - Premium Streaming Portal</summary>
+    <description lang="en_GB">A fully custom, premium streaming hub. Movies, TV Shows, Live TV, Sports - all in a beautiful AntiVenom-branded UI. No skin change required.</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>

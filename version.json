@@ -1,9 +1,9 @@
 {
     "name": "AntiVenom Hub",
-    "version": "1.0.61",
+    "version": "1.0.62",
     "kodi_target": "21.3 (Omega) & 20 (Nexus)",
     "skin_version": "4.0.14",
-    "zip_url": "https://raw.githubusercontent.com/jaymac4453/venmons/main/zips/script.antivenom/script.antivenom-1.0.61.zip",
+    "zip_url": "https://raw.githubusercontent.com/jaymac4453/venmons/main/zips/script.antivenom/script.antivenom-1.0.62.zip",
     "changelog": [
         "Fixed: Multi-tiered metadata resolver with TMDb ID, Cinemeta, TMDb Search, and TVMaze ensures no title ever fails to find streams due to missing IMDb IDs or Cinemeta timeouts",
         "Fixed: Fast Mode passes tmdb IDs directly to DebridEngine and The Crew fallback, instantly resolving streams for Disney+ specials, obscure releases, and franchise films",

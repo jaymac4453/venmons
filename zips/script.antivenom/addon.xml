@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.antivenom" name="AntiVenom Hub" version="1.0.63" provider-name="AntiVenom">
+<addon id="script.antivenom" name="AntiVenom Hub" version="1.0.64" provider-name="AntiVenom">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="plugin.video.thecrew" version="0.0.1" optional="true"/>

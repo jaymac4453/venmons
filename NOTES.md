@@ -1,8 +1,8 @@
 # AntiVenom Notes — 2026-10-26 (v1.0.64 / skin 4.0.14)
 
-Last GitHub push: **1.0.65** / skin **4.0.14**. Repo: `jaymac4453/venmons`.
+Last GitHub push: **1.0.66** / skin **4.0.14**. Repo: `jaymac4453/venmons`.
 
-**1.0.65:** Clicking a game no longer burns 40s on dead DaddyLive/`dlhd.pk` HLS (that failed in 1.0.64). Those links are skipped; play goes to the next real source, then The Crew.
+**1.0.66:** Click a game and it plays. The SC / ES / scraper menu is not shown.
 
 ## Issues (what was wrong)
 

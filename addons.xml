@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="script.antivenom" name="AntiVenom Hub" version="1.0.66" provider-name="AntiVenom">
+<addon id="script.antivenom" name="AntiVenom Hub" version="1.0.64" provider-name="AntiVenom">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="plugin.video.thecrew" version="0.0.1" optional="true"/>
@@ -25,7 +25,7 @@
     </assets>
   </extension>
 </addon>
-<addon id="skin.antivenom" version="4.0.14" name="AntiVenom" provider-name="AntiVenom">
+<addon id="skin.antivenom" version="4.0.15" name="AntiVenom" provider-name="AntiVenom">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0"/>
 	</requires>
@@ -211,7 +211,7 @@
 		<disclaimer lang="zh_TW">Estuary æ˜¯ Kodi é è¨­çš„ä½ˆæ™¯ä¸»é¡Œï¼Œç§»é™¤å®ƒå¯èƒ½æœƒé€ æˆå•é¡Œ</disclaimer>
 	</extension>
 </addon>
-<addon id="plugin.program.autocompletion" name="AutoCompletion for virtual keyboard" version="2.0.1" provider-name="AntiVenom">
+<addon id="plugin.program.autocompletion" name="AutoCompletion for virtual keyboard" version="2.0.0" provider-name="AntiVenom">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>

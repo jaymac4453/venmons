@@ -1,10 +1,11 @@
 {
     "name": "AntiVenom Hub",
-    "version": "1.0.64",
+    "version": "1.0.65",
     "kodi_target": "21.3 (Omega) & 20 (Nexus)",
     "skin_version": "4.0.14",
-    "zip_url": "https://raw.githubusercontent.com/jaymac4453/venmons/main/zips/script.antivenom/script.antivenom-1.0.64.zip",
+    "zip_url": "https://raw.githubusercontent.com/jaymac4453/venmons/main/zips/script.antivenom/script.antivenom-1.0.65.zip",
     "changelog": [
+        "Fixed: games no longer stall on dead DaddyLive/dlhd links; play skips those and uses the next source or The Crew",
         "Fixed: clicking an NBA/NHL/other game now plays it (sports_play_universal was ignored so Kodi skipped the item)",
         "NFL: live games show green LIVE and sit at the top; the list refreshes every 2 minutes",
         "NFL: one row per game (RedZone + today's matchups) instead of 30 identical NFL LIVE scraper tiles",
